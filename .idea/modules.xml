@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-base.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-base_main.iml" group="exercise-base" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-base_test.iml" group="exercise-base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library.iml" filepath="$PROJECT_DIR$/.idea/modules/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library_main.iml" filepath="$PROJECT_DIR$/.idea/modules/library_main.iml" group="library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library_test.iml" filepath="$PROJECT_DIR$/.idea/modules/library_test.iml" group="library" />
     </modules>
   </component>
 </project>

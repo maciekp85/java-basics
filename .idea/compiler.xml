@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="exercise-base_main" target="1.8" />
       <module name="exercise-base_test" target="1.8" />
+      <module name="library_main" target="1.8" />
+      <module name="library_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
