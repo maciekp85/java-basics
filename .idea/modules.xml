@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/car-shop.iml" filepath="$PROJECT_DIR$/.idea/modules/car-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/car-shop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/car-shop_main.iml" group="car-shop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/car-shop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/car-shop_test.iml" group="car-shop" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-base.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-base_main.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-base_main.iml" group="exercise-base" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-base_test.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-base_test.iml" group="exercise-base" />

@@ -1,4 +1,6 @@
-package pl.javastart.library;
+package pl.javastart.library.app;
+
+import pl.javastart.library.data.Book;
 
 /**
  * Created by nishi on 2017-02-07.
@@ -6,7 +8,7 @@ package pl.javastart.library;
 public class Library {
 
   public static void main(String args[]) {
-    final String appName = "Library v0.4";
+    final String appName = "Library v0.5\n";
 
     Book book1 = new Book("W pustyni i w puszczy", "Henryk Sienkiewicz", 2010, 296,
               "Greg", "9788373271890");

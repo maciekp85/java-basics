@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="car-shop_main" target="1.8" />
+      <module name="car-shop_test" target="1.8" />
       <module name="exercise-base_main" target="1.8" />
       <module name="exercise-base_test" target="1.8" />
       <module name="library_main" target="1.8" />
