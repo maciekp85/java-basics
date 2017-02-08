@@ -11,6 +11,18 @@ public class Car {
   String brand;
   String model;
 
+  // Constructor
+  Car(String carBrand, String carModel, int doorsNumber, String color, String wheels, String tires) {
+
+    // We assign parameters that we passed as constructor parameters
+    brand = carBrand;
+    model = carModel;
+    doors = doorsNumber;
+    carColor = color;
+    wheelsColor = wheels;
+    tiresColor = tires;
+  }
+
   void printInfo() {
     String info = "";
     info = info + brand + " ";

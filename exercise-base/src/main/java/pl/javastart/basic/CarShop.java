@@ -5,13 +5,9 @@ package pl.javastart.basic;
  */
 public class CarShop {
 
-  static CarFactory cf;
-
   public static void main(String args[]) {
-    cf = new CarFactory();
-
-    Car mazda = cf.createCar( "Mazda", "CX-5", 4, "red", "silver", "black" );
-    Car bmw = cf.createCar( "BMW", "Z3", 2, "blue", "lightgreen", "black" );
+    Car mazda = new Car( "Mazda", "CX-5", 4, "red", "silver", "black" );
+    Car bmw = new Car( "BMW", "Z3", 2, "blue", "lightgreen", "black" );
 
     mazda.printInfo();
     bmw.printInfo();
