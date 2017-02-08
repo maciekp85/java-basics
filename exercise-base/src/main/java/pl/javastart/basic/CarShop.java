@@ -5,24 +5,15 @@ package pl.javastart.basic;
  */
 public class CarShop {
 
-  static Car mazda;
+  static CarFactory cf;
 
   public static void main(String args[]) {
-    mazda = new Car();
-    mazda.brand = "Mazda";
-    mazda.model = "CX-5";
-    mazda.doors = 4;
-    mazda.carColor = "red";
-    mazda.wheelsColor = "silver";
-    mazda.tiresColor = "black";
+    cf = new CarFactory();
 
-    String mazdaInfo = mazda.brand + " " + mazda.model
-                      + ", Door: " + mazda.doors
-                      + ", Car color: " + mazda.carColor
-                      + ", Wheels color: " + mazda.wheelsColor
-                      + ", Tires color: " + mazda.tiresColor;
+    Car mazda = cf.createCar( "Mazda", "CX-5", 4, "red", "silver", "black" );
+    Car bmw = cf.createCar( "BMW", "Z3", 2, "blue", "lightgreen", "black" );
 
-    System.out.println("You chose following car: ");
-    System.out.println(mazdaInfo);
+    mazda.printInfo();
+    bmw.printInfo();
   }
 }

@@ -10,4 +10,16 @@ public class Car {
   String tiresColor;
   String brand;
   String model;
+
+  void printInfo() {
+    String info = "";
+    info = info + brand + " ";
+    info = info + model + ", ";
+    info = info + "color: " + carColor + ", ";
+    info = info + "doors: " + doors + ", ";
+    info = info + "wheels color: " + wheelsColor + " ";
+    info = info + "tires color: " + tiresColor;
+
+    System.out.println(info);
+  }
 }
