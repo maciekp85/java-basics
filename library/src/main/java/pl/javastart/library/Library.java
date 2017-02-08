@@ -6,7 +6,7 @@ package pl.javastart.library;
 public class Library {
 
   public static void main(String args[]) {
-    final String appName = "Library v0.3";
+    final String appName = "Library v0.4";
 
     Book book1 = new Book("W pustyni i w puszczy", "Henryk Sienkiewicz", 2010, 296,
               "Greg", "9788373271890");
@@ -15,11 +15,13 @@ public class Library {
     Book book3 = new Book("SCJP Sun Certified Programmer for Java 6 Study Guide",
             "Bert Bates, Katherine Sierra", 2008, 851, "McGraw-Hill Osborne Media",
             "9780071591065");
+    Book book1Copy = new Book( book1 );
 
     System.out.print(appName);
     System.out.println("Books are available in library: ");
     book1.printInfo();
     book2.printInfo();
     book3.printInfo();
+    book1Copy.printInfo();
   }
 }

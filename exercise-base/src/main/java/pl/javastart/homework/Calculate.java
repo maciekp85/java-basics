@@ -24,5 +24,6 @@ public class Calculate {
 
     double divideResult = calc.divide( a, b );
     System.out.println("a / b = " + divideResult);
+
   }
 }
