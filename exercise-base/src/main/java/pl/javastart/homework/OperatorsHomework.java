@@ -1,4 +1,4 @@
-package pl.javastart.basic;
+package pl.javastart.homework;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package pl.javastart.basic;
+package pl.javastart.homework;
 
 /**
  * Created by nishi on 2017-02-07.
