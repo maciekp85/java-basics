@@ -5,7 +5,7 @@ package pl.javastart.library.data;
  */
 public class Library {
 
-  public final int maxBooks = 1000;
+  public static final int maxBooks = 1000;
   private Book[] books;
   private int booksNumber;
 

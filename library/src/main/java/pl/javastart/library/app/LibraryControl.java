@@ -10,9 +10,9 @@ import pl.javastart.library.utils.DataReader;
 public class LibraryControl {
 
   // variables to control the program
-  public final int exit = 0;
-  public final int addBook = 1;
-  public final int printBooks = 2;
+  public static final int exit = 0;
+  public static final int addBook = 1;
+  public static final int printBooks = 2;
 
   // variable to communicate with user
   private DataReader dataReader;
