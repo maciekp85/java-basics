@@ -1,4 +1,4 @@
-package pl.javastart.homework.homework14;
+package pl.javastart.homework.topic14;
 
 /**
  * Created by nishi on 2017-02-28.

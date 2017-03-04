@@ -1,4 +1,4 @@
-package pl.javastart.homework.homework14;
+package pl.javastart.homework.topic14;
 
 import java.util.Locale;
 import java.util.Scanner;
