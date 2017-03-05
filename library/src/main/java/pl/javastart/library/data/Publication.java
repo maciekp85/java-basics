@@ -32,4 +32,10 @@ public class Publication {
   public void setPublisher(String publisher) {
     this.publisher = publisher;
   }
+
+  protected Publication(int year, String title, String publisher) {
+    setYear( year );
+    setTitle( title );
+    setPublisher( publisher );
+  }
 }

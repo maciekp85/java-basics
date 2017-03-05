@@ -38,11 +38,9 @@ public class Book extends Publication {
 
   // Constructors
   public Book(String title, String author, int year, int pages, String publisher, String isbn) {
-    this.setTitle( title );
+    super(year, title, publisher);
     this.setAuthor( author );
-    this.setYear( year );
     this.setPages( pages );
-    this.setPublisher( publisher );
     this.setIsbn( isbn );
   }
 
