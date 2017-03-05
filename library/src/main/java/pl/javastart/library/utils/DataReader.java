@@ -1,6 +1,7 @@
 package pl.javastart.library.utils;
 
 import pl.javastart.library.data.Book;
+import pl.javastart.library.data.Magazine;
 
 import java.util.Scanner;
 
@@ -35,14 +36,32 @@ public class DataReader {
     System.out.println("ISBN: ");
     String isbn = sc.nextLine();
     System.out.println("Release date: ");
-    int releaseDate = sc.nextInt();
+    int year = sc.nextInt();
     sc.nextLine();
     System.out.println("Pages: ");
     int pages = sc.nextInt();
     sc.nextLine();
 
-    return new Book( title, author, releaseDate, pages, publisher, isbn );
+    return new Book( title, author, year, pages, publisher, isbn );
   }
 
+  public Magazine readAndCreateMagazine() {
+    System.out.println("Title: ");
+    String title = sc.nextLine();
+    System.out.println("Publisher: ");
+    String publisher = sc.nextLine();
+    System.out.println("Language: ");
+    String language = sc.nextLine();
+    System.out.println("Release date: ");
+    int year = sc.nextInt();
+    sc.nextLine();
+    System.out.println("Month: ");
+    int month = sc.nextInt();
+    sc.nextLine();
+    System.out.println("Day: ");
+    int day = sc.nextInt();
+    sc.nextLine();
 
+    return new Magazine( title, publisher, language, year, month, day );
+  }
 }
