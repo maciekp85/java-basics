@@ -29,38 +29,11 @@ public class Library {
     addPublication( magazine );
   }
 
-  private void addPublication(Publication pub) {
-    if (publicationsNumber < MAX_PUBLICATIONS) {
+  private void addPublication(Publication pub) throws ArrayIndexOutOfBoundsException {
+    if (publicationsNumber == MAX_PUBLICATIONS) {
+      throw new ArrayIndexOutOfBoundsException( "MAX_PUBLICATIONS " + MAX_PUBLICATIONS );
+    }
       publications[publicationsNumber] = pub;
       publicationsNumber++;
-    } else {
-      System.out.println( "Max number of publications has achieved" );
-    }
-  }
-
-  public void printBooks() {
-    int countBooks = 0;
-    for (int i = 0; i < publicationsNumber; i++) {
-      if (publications[i] instanceof Book) {
-        System.out.println( publications[i] );
-        countBooks++;
-      }
-    }
-    if (countBooks == 0) {
-      System.out.println( "No books in the library" );
-    }
-  }
-
-  public void printMagazines() {
-    int countMagazines = 0;
-    for (int i = 0; i < publicationsNumber; i++) {
-      if (publications[i] instanceof Magazine) {
-        System.out.println( publications[i] );
-        countMagazines++;
-      }
-    }
-    if (countMagazines == 0) {
-      System.out.println( "No magazines in the library" );
-    }
   }
 }

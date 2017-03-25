@@ -1,5 +1,7 @@
 package pl.javastart.library.app;
 
+import java.util.NoSuchElementException;
+
 /**
  * Created by nishi on 2017-03-08.
  */
@@ -32,8 +34,14 @@ public enum Option {
     return value + " - " + description;
   }
 
-  public static Option createFromInt(int option) {
-    return Option.values()[option];
+  public static Option createFromInt(int option) throws NoSuchElementException {
+    Option result = null;
+    try {
+      result = Option.values()[option];
+    } catch (ArrayIndexOutOfBoundsException e) {
+      throw new NoSuchElementException( "No element with passed ID" );
+    }
+    return result;
   }
 
 }

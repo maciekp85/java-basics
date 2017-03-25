@@ -6,7 +6,7 @@ package pl.javastart.library.app;
 public class LibraryApp {
 
   public static void main(String args[]) {
-    final String appName = "LibraryApp v0.91\n";
+    final String appName = "LibraryApp v0.92\n";
 
     System.out.println(appName);
     LibraryControl libControl = new LibraryControl();
